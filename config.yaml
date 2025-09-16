@@ -1,0 +1,36 @@
+name: "ELTEK Smartpack SNMP"
+version: "1.1.0"
+slug: "eltek_smartpack_snmp_mqtt"
+description: "SNMP to MQTT bridge for ELTEK Smartpack with auto-discovery."
+url: "https://github.com/GonZOO82/ha-eltek-smartpack-mqtt"
+arch:
+  - "aarch64"
+  - "amd64"
+  - "armhf"
+  - "armv7"
+  - "i386"
+init: false
+services:
+  - "mqtt:want"
+host_network: false
+options:
+  snmp_host: ""
+  snmp_port: 161
+  community_public: "public"
+  community_private: "private"
+  scan_interval: 15
+  mqtt_host: ""
+  mqtt_port: 1883
+  mqtt_user: ""
+  mqtt_password: ""
+schema:
+  snmp_host: str
+  snmp_port: port
+  community_public: str
+  community_private: password
+  scan_interval: int
+  mqtt_host: str?
+  mqtt_port: port?
+  mqtt_user: str?
+  mqtt_password: password?
+
