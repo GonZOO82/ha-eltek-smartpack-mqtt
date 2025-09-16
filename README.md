@@ -1,7 +1,9 @@
 # Home Assistant Add-on: ELTEK Smartpack SNMP to MQTT Bridge
 
-\[!\[GitHub Release\]\[releases-shield\]\]\[releases\]
-\[!\[License\]\[license-shield\]\]\[license\]
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 Integrálja az ELTEK Smartpack egyenirányítókat a Home Assistant rendszerbe, kifejezetten LiFePO4 akkumulátorok napelemes rendszerekben történő töltésének vezérlésére és monitorozására.
 
@@ -67,7 +69,7 @@ Az add-on a következő, LiFePO4 akkumulátorok napelemes rendszerekben történ
 
     * Kattints a jobb felső sarokban lévő három pontra, és válaszd a **Tárolóhelyek** opciót.
 
-    * Másold be a GitHub repository URL-jét (`https://github.com/a-te-felhasznaloneved/ha-eltek-smartpack-mqtt`) a mezőbe, és kattints a **Hozzáadás** gombra.
+    * Másold be a GitHub repository URL-jét (`https://github.com/GonZOO82/ha-eltek-smartpack-mqtt`) a mezőbe, és kattints a **Hozzáadás** gombra.
 
 2. **Add-on Telepítése:**
 
@@ -102,10 +104,3 @@ Az add-on sikeres elindulása és az MQTT brókerhez való csatlakozás után au
 * Az eszközök listájában meg kell jelennie egy **ELTEK Smartpack** nevű eszköznek.
 
 * Rákattintva láthatod az összes hozzá tartozó szenzort, kapcsolót és beállítót, amiket már szabadon használhatsz a dashboardjaidon és automatizációidban.
-
-## Licenc
-
-Ez a projekt az [MIT Licenc](https://www.google.com/search?q=./LICENSE) alatt érhető el.
-
-Készítette: \[A Te Neved\]
-```
